@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-image: url('cooldragon.jpg');
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 3em;
+    padding: 2.5%;
+}
+
+nav,footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    border-style: solid none solid none;
+    border-color: red;
+    border-width: 5px;
+}
+
+.set {
+    padding: 2% 10% 2% 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+div {
+    background-image: url('Phoenix.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 22%;
+    opacity: 85%;
+}
+
+input[type=text]{
+    width: 50%;
+    height: 2em;
+    font-size: 1.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style:solid none solid none;
+    border-width: 8px;
+    border-color: black;
+    outline: none;
+}
+
+
+.set2 {
+    padding: 0% 15% 0% 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+
+.sbutton {
+    font-size: 2em;
+    text-decoration: none;
+    padding:1.5%;
+    border: solid black 4px;
+    border-radius:25%;
+    margin: 0 45% 0 45%;
+    background-color: red;
+
+}

@@ -1,0 +1,214 @@
+.fa {
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 5px;
+    box-sizing: content-box;
+    border-radius: 50%;
+ }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+* {
+    margin: 0;
+
+}
+
+body {
+    background-image: url('cooldragon.jpg');
+  
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+
+h1 {
+    color: red;
+    font-size: 2em;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+#sbar {
+    font-size: 1em;
+    padding: 0.8em;
+    box-sizing: border-box;
+    width: 20%;
+    border-style: solid none solid none;
+    border-color:red;
+    border-width: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#sbut {
+    font-size:1em;
+    padding: 0.6em;
+    border-radius: 50%;
+    margin-right: 10%;
+    border:solid red 2px;
+    background-color: black;;
+}
+
+#sbut:hover {
+    opacity:0.7;
+}
+
+#lbut {
+    font-size: 1em;
+    padding:0.7em;
+    width:200px;
+    background-color: black;
+    color: white;
+    margin-left: 14%;
+    outline: none;
+    border: solid red 2px;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+#lbut:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#lbut:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: red;
+}
+
+#lbut:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    padding: 2% 4%;
+}
+
+.container {
+    width: 80%;
+    position: relative;
+    left: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+    grid-gap: 80px;
+    float: left;
+}
+
+.item {
+    background-color: silver;
+    color: black;
+    text-align:center;
+    font-size: 1.3em;
+    text-decoration: none;
+    border: solid red 5px;
+    box-sizing: content-box;
+    
+}
+
+.item:hover {
+    opacity:0.7;
+}
+
+.genre {
+    float: right;
+    width: 20%;
+    background-color: rgba(0, 0, 0,0.5);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div>ul>li {
+    text-align: left;
+    padding: 1em;
+
+}
+
+.mar {
+    background-color: black;
+    border-style: solid none solid none;
+    border-color: red;
+    border-width: 3px;
+    padding: 2%;
+}
+
+.but{
+    clear: left;
+}
+
+#pbut {
+    float: left;
+    font-size: 1em;
+    padding: 1em;
+    margin: 2%;
+    background-color: black;
+    color:white;
+    border: solid red 2px;
+}
+
+#nbut {
+    float: right;
+    font-size: 1em;
+    padding: 1em 2em 1em 2em;
+    margin: 2% 24% 2% 2%;
+    background-color: black;
+    color:white;
+    border: solid red 2px;
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    border-style: solid none solid none;
+    border-color: red;
+    border-width: 3px;
+    margin-top: 8%;
+}
+
+.set2 {
+    padding: 0% 15% 0% 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}

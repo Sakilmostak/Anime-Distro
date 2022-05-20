@@ -1,0 +1,96 @@
+.phot {
+    float: left;
+}
+
+h2 {
+    font-size: 3em;
+    padding: 1% 5%;
+    color: white;
+    font-weight: lighter;
+    margin-left: 24%;
+    text-shadow: 2px 2px 8px #000000
+}
+
+p {
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    display:inline-block;
+}
+
+.rating {
+    display: inline-block;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: -2px;
+    padding-right: 20px;
+    margin-left: 3%;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    letter-spacing: -20px;
+    border: solid red 2px;
+
+}
+
+.checked {
+    color: orange;
+}
+.emp {
+    color: white;
+}
+
+.syp {
+    clear: left;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    border-style: solid none solid none;
+    border-color: red;
+    border-width: 3px;
+    margin-top: 8%;
+}
+
+.set2 {
+    padding: 0% 15% 0% 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+
+.wsec {
+    background-color: rgba(0, 0, 0,0.5);
+    width: 20%;
+    position:absolute;
+    top: 10%;
+    right:0;
+    text-align: center;
+    height: 540px;
+}
+
+#wbut {
+    margin:1em;
+    font-size: 1em;
+    padding:0.7em;
+    width:150px;
+    outline: none;
+    border: solid green 5px;
+    border-radius: 5px;
+}
+
+#abut {
+    margin:1em;
+    font-size: 1em;
+    padding:0.7em;
+    width:150px;
+    outline: none;
+    border: solid yellow 5px;
+    border-radius: 5px;
+
+}
